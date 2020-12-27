@@ -24,7 +24,7 @@
 		"nonsense",
 		"狗屁不通"
 	],
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.29.0"
 	},
@@ -55,7 +55,7 @@
 			"properties": {
 				"bullshift.language": {
 					"type": "string",
-					"default": "CN",
+					"default": "EN",
 					"enum": [
 						"EN",
 						"CN"
