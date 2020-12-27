@@ -1,0 +1,60 @@
+{
+	"name": "bullshift",
+	"displayName": "Bullshift Generator",
+	"description": "Greatly improve the production efficiency of nonsense.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:bullshift.generate"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "bullshift.generate",
+				"title": "New Bullshift"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"group": "navigation",
+					"command": "bullshift.generate"
+				}
+			]
+		}
+	},
+	"configuration": {
+		"title": "Bullshift Setting",
+		"properties": {
+			"bullshift.language": {
+				"type": "string",
+				"default": "CN",
+				"enum": [
+					"EN",
+					"CN"
+				],
+				"description": "Set the generated language."
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
