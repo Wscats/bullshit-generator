@@ -2,6 +2,28 @@
 	"name": "bullshift",
 	"displayName": "Bullshift Generator",
 	"description": "Greatly improve the production efficiency of nonsense.",
+	"publisher": "Wscats",
+	"icon": "icon.png",
+	"author": {
+		"name": "Eno Yao",
+		"email": "kalone.cool@gmail.com",
+		"url": "https://github.com/Wscats"
+	},
+	"homepage": "https://github.com/Wscats/bullshit-generator#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Wscats/bullshit-generator"
+	},
+	"bugs": {
+		"url": "https://github.com/Wscats/bullshit-generator/issues",
+		"email": "kalone.cool@gmail.com"
+	},
+	"keywords": [
+		"bullshift",
+		"generator",
+		"nonsense",
+		"狗屁不通"
+	],
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.29.0"
@@ -27,28 +49,24 @@
 					"command": "bullshift.generate"
 				}
 			]
-		}
-	},
-	"configuration": {
-		"title": "Bullshift Setting",
-		"properties": {
-			"bullshift.language": {
-				"type": "string",
-				"default": "CN",
-				"enum": [
-					"EN",
-					"CN"
-				],
-				"description": "Set the generated language."
+		},
+		"configuration": {
+			"title": "Bullshift Setting",
+			"properties": {
+				"bullshift.language": {
+					"type": "string",
+					"default": "CN",
+					"enum": [
+						"EN",
+						"CN"
+					],
+					"description": "Set the generated language."
+				}
 			}
 		}
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+		"build": "vsce package"
 	},
 	"devDependencies": {
 		"typescript": "^3.3.1",
