@@ -32,13 +32,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:bullshift.generate"
+		"onCommand:bullshift.generate-bullshift"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "bullshift.generate",
+				"command": "bullshift.generate-bullshift",
 				"title": "New Bullshift"
 			}
 		],
@@ -46,7 +46,7 @@
 			"explorer/context": [
 				{
 					"group": "navigation",
-					"command": "bullshift.generate"
+					"command": "bullshift.generate-bullshift"
 				}
 			]
 		},
