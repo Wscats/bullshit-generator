@@ -1,6 +1,6 @@
 {
-	"name": "bullshift",
-	"displayName": "Bullshift Generator",
+	"name": "bullshit",
+	"displayName": "Bullshit Generator",
 	"description": "Greatly improve the production efficiency of nonsense.",
 	"publisher": "Wscats",
 	"icon": "icon.png",
@@ -19,12 +19,13 @@
 		"email": "kalone.cool@gmail.com"
 	},
 	"keywords": [
-		"bullshift",
+		"bullshit",
+		"shit",
 		"generator",
 		"nonsense",
 		"狗屁不通"
 	],
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.29.0"
 	},
@@ -32,28 +33,28 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:bullshift.generate-bullshift"
+		"onCommand:bullshit.generate-bullshit"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "bullshift.generate-bullshift",
-				"title": "New Bullshift"
+				"command": "bullshit.generate-bullshit",
+				"title": "New Bullshit"
 			}
 		],
 		"menus": {
 			"explorer/context": [
 				{
 					"group": "navigation",
-					"command": "bullshift.generate-bullshift"
+					"command": "bullshit.generate-bullshit"
 				}
 			]
 		},
 		"configuration": {
-			"title": "Bullshift Setting",
+			"title": "Bullshit Setting",
 			"properties": {
-				"bullshift.language": {
+				"bullshit.language": {
 					"type": "string",
 					"default": "EN",
 					"enum": [

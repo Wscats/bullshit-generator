@@ -4,7 +4,7 @@ Recently, a **shit article generator** on GitHub has become popular.
 
 > Source Code: https://github.com/Wscats/bullshit-generator
 
-> Extension: https://marketplace.visualstudio.com/items?itemName=Wscats.bullshift
+> Extension: https://marketplace.visualstudio.com/items?itemName=Wscats.bullshit
 
 The project name already shows that it is destined to be different.
 
@@ -112,6 +112,6 @@ If you want to try, give you the address directly, take advantage of the free ti
 
 > Source Code: https://github.com/Wscats/bullshit-generator
 
-> Extension: https://marketplace.visualstudio.com/items?itemName=Wscats.bullshift
+> Extension: https://marketplace.visualstudio.com/items?itemName=Wscats.bullshit
 
 I hope you can give me a star, your support is my biggest motivation to talk bullshit.

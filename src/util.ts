@@ -21,7 +21,7 @@ const makeDirSync = (dir: string) => {
     fs.mkdirSync(dir);
 };
 
-export const generateBullShift = (file: any) => {
+export const generateBullShit = (file: any) => {
     vscode.window.showInputBox({
         value: "",
         prompt: "topic",
@@ -53,7 +53,7 @@ function someFamousQuotes() {
     let preWords = preWordsCN;
     let backWords = backWordsCN;
 
-    const config = vscode.workspace.getConfiguration("bullshift");
+    const config = vscode.workspace.getConfiguration("bullshit");
     const language = config.get("language");
     switch (language) {
         case "CN":
@@ -92,7 +92,7 @@ function someFamousQuotes() {
 }
 
 function talkAbout(theme: string) {
-    const config = vscode.workspace.getConfiguration("bullshift");
+    const config = vscode.workspace.getConfiguration("bullshit");
     const language = config.get("language");
     let discourse = discourseCN;
     switch (language) {
@@ -120,7 +120,7 @@ function talkAbout(theme: string) {
 }
 
 function addParagraph(chapter: string) {
-    const config = vscode.workspace.getConfiguration("bullshift");
+    const config = vscode.workspace.getConfiguration("bullshit");
     const language = config.get("language");
     if (chapter[chapter.length - 1] === " ") {
         chapter = chapter.slice(0, -2)

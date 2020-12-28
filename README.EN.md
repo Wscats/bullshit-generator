@@ -4,7 +4,7 @@
 
 <!-- Greatly improve the production efficiency of nonsense. -->
 
-[Install the extension](https://marketplace.visualstudio.com/items?itemName=Wscats.bullshift), click on `New Bullshift` in the directory, enter the theme, an `md` file will be automatically generated.
+[Install the extension](https://marketplace.visualstudio.com/items?itemName=Wscats.bullshit), click on `New Bullshit` in the directory, enter the theme, an `md` file will be automatically generated.
 
 ![Kapture 2020-12-27 at 22 07 42](https://user-images.githubusercontent.com/17243165/103172697-31078900-4890-11eb-8ccd-7ef1e6eed2cc.gif)
 
@@ -14,11 +14,11 @@ You can set the generated language in `settings.json`.
 
 ```json
 {
-  "bullshift.language": "EN"
+  "bullshit.language": "EN"
 }
 ```
 
-Or search for configuration items `@ext:wscats.bullshift`, Set the generated language, EN is English, CN is Chinese (default).
+Or search for configuration items `@ext:wscats.bullshit`, Set the generated language, EN is English, CN is Chinese (default).
 
 ![image](https://user-images.githubusercontent.com/17243165/103172928-2817b700-4892-11eb-9146-051f22f488c9.png)
 
