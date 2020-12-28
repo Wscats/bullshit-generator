@@ -4,6 +4,7 @@
 	"description": "Greatly improve the production efficiency of nonsense.",
 	"publisher": "Wscats",
 	"icon": "icon.png",
+	"license": "MIT",
 	"author": {
 		"name": "Eno Yao",
 		"email": "kalone.cool@gmail.com",
@@ -25,7 +26,7 @@
 		"nonsense",
 		"狗屁不通"
 	],
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.29.0"
 	},

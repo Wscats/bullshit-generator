@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/17243165/103182032-c3d11380-48e2-11eb-87a2-f5ec23ed4cee.png)
 
+# Bullshit Generator
+
 Recently, a **shit article generator** on GitHub has become popular.
 
 > Source Code: https://github.com/Wscats/bullshit-generator
@@ -115,3 +117,7 @@ If you want to try, give you the address directly, take advantage of the free ti
 > Extension: https://marketplace.visualstudio.com/items?itemName=Wscats.bullshit
 
 I hope you can give me a star, your support is my biggest motivation to talk bullshit.
+
+# Thanks
+
+- [Bullshit Generator](https://github.com/menzi11/BullshitGenerator)
