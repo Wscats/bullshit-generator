@@ -14,7 +14,9 @@ I prefer its name, `Bullshit Generator`.
 
 The soul was shocked. Good name!
 
-![image](https://user-images.githubusercontent.com/17243165/103182472-7c4c8680-48e6-11eb-82e0-dab75cceef4b.png)
+![image](https://user-images.githubusercontent.com/17243165/103202546-ab3a1b00-492d-11eb-8065-12ddbe70489b.png)
+
+<!-- ![image](https://user-images.githubusercontent.com/17243165/103182472-7c4c8680-48e6-11eb-82e0-dab75cceef4b.png) -->
 
 <!-- ![image](https://user-images.githubusercontent.com/17243165/103182023-a69c4500-48e2-11eb-907c-b9a2611e64ce.png) -->
 
