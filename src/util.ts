@@ -21,7 +21,7 @@ const makeDirSync = (dir: string) => {
     fs.mkdirSync(dir);
 };
 
-export const generateBullShit = (file: any) => {
+export const generateBullShit = (file: unknown) => {
     vscode.window.showInputBox({
         value: "",
         prompt: "topic",
@@ -135,7 +135,7 @@ function addParagraph(chapter: string) {
     }
 }
 
-function generateArticle(theme: any) {
+function generateArticle(theme: unknown) {
     let article = []
     for (let i in theme) {
         let chapter = "";
