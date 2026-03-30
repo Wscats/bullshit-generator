@@ -1,85 +1,87 @@
 {
-	"name": "bullshit",
-	"displayName": "Bullshit Generator",
-	"description": "Greatly improve the production efficiency of nonsense.",
-	"publisher": "Wscats",
-	"icon": "icon.png",
-	"license": "MIT",
-	"author": {
-		"name": "Eno Yao",
-		"email": "kalone.cool@gmail.com",
-		"url": "https://github.com/Wscats"
-	},
-	"homepage": "https://github.com/Wscats/bullshit-generator#readme",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Wscats/bullshit-generator"
-	},
-	"bugs": {
-		"url": "https://github.com/Wscats/bullshit-generator/issues",
-		"email": "kalone.cool@gmail.com"
-	},
-	"keywords": [
-		"bullshit",
-		"shit",
-		"generator",
-		"nonsense",
-		"狗屁不通"
-	],
-	"version": "0.0.5",
-	"engines": {
-		"vscode": "^1.29.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:bullshit.generate-bullshit"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "bullshit.generate-bullshit",
-				"title": "New Bullshit"
-			}
-		],
-		"menus": {
-			"explorer/context": [
-				{
-					"group": "navigation",
-					"command": "bullshit.generate-bullshit"
-				}
-			]
-		},
-		"configuration": {
-			"title": "Bullshit Setting",
-			"properties": {
-				"bullshit.language": {
-					"type": "string",
-					"default": "EN",
-					"enum": [
-						"EN",
-						"CN"
-					],
-					"description": "Set the generated language."
-				}
-			}
-		}
-	},
-	"scripts": {
-		"build": "vsce package",
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
-	}
+  "name": "bullshit",
+  "displayName": "Bullshit Generator",
+  "description": "Greatly improve the production efficiency of nonsense.",
+  "publisher": "Wscats",
+  "icon": "icon.png",
+  "license": "MIT",
+  "author": {
+    "name": "Eno Yao",
+    "email": "kalone.cool@gmail.com",
+    "url": "https://github.com/Wscats"
+  },
+  "homepage": "https://github.com/Wscats/bullshit-generator#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wscats/bullshit-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/Wscats/bullshit-generator/issues",
+    "email": "kalone.cool@gmail.com"
+  },
+  "keywords": [
+    "bullshit",
+    "shit",
+    "generator",
+    "nonsense",
+    "狗屁不通"
+  ],
+  "version": "0.0.5",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:bullshit.generate-bullshit"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bullshit.generate-bullshit",
+        "title": "New Bullshit"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "group": "navigation",
+          "command": "bullshit.generate-bullshit"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Bullshit Setting",
+      "properties": {
+        "bullshit.language": {
+          "type": "string",
+          "default": "EN",
+          "enum": [
+            "EN",
+            "CN"
+          ],
+          "description": "Set the generated language."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "vsce package",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28",
+    "tslint": "^5.12.1",
+    "@types/node": "^10.12.21",
+    "@types/mocha": "^2.2.42"
+  }
 }
